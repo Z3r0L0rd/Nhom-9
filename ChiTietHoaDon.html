@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Hóa Đơn</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <h1>Chi Tiết Hóa Đơn</h1>
+        <div class="invoice-details">
+            <div class="invoice-info">
+                <p><strong>Mã Hóa Đơn:</strong> #123456</p>
+                <p><strong>Ngày Mua:</strong> 10/10/2023</p>
+                <p><strong>Tên Khách Hàng:</strong> Nguyễn Văn A</p>
+                <p><strong>Địa Chỉ:</strong> 123 Đường ABC, Quận 1, TP.HCM</p>
+            </div>
+            <div class="car-details">
+                <h2>Thông Tin Xe</h2>
+                <p><strong>Tên Xe:</strong> Toyota Camry 2023</p>
+                <p><strong>Màu Sắc:</strong> Đen</p>
+                <p><strong>Số Lượng:</strong> 1</p>
+                <p><strong>Giá:</strong> 1,200,000,000 VND</p>
+            </div>
+            <div class="payment-details">
+                <h2>Thông Tin Thanh Toán</h2>
+                <p><strong>Phương Thức Thanh Toán:</strong> Chuyển Khoản Ngân Hàng</p>
+                <p><strong>Tổng Cộng:</strong> 1,200,000,000 VND</p>
+                <p><strong>Trạng Thái:</strong> Đã Thanh Toán</p>
+            </div>
+        </div>
+        <button onclick="printInvoice()">In Hóa Đơn</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
